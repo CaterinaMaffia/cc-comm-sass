@@ -1,0 +1,13 @@
+header {
+  background-color: black; }
+  header img {
+    width: 100px; }
+  header nav {
+    background-color: white; }
+  header ul {
+    display: flex;
+    justify-content: center; }
+  header li {
+    list-style: none; }
+  header a {
+    text-decoration: none; }
