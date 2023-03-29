@@ -5,6 +5,12 @@
 
 html {
   font-size: 62.5%; }
+  html p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: light;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 3rem; }
 
 header {
   display: flex;
@@ -18,7 +24,7 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center; }
-  header div a {
+  header div .logo {
     font-family: 'Stick No Bills', sans-serif;
     font-weight: light;
     text-align: left;
@@ -40,25 +46,42 @@ header {
     padding: 1rem; }
     header nav nav #toggle, header nav nav label {
       display: none; }
-    header nav div ul {
+    header nav .menu ul li {
+      text-decoration: none;
       list-style: none;
       display: flex;
       gap: 2rem; }
-      header nav div ul li {
+      header nav .menu ul li a {
+        background-color: #212121;
+        color: #FFF8EA;
+        font-size: 2rem;
+        justify-content: space-around;
+        padding: 1%;
+        font-family: 'Nunito Sans', sans-serif;
         text-decoration: none; }
-        header nav div ul li a {
+        header nav .menu ul li a:hover {
           background-color: #212121;
           color: #FFF8EA;
-          font-size: 2rem;
-          justify-content: space-around;
-          padding: 1%;
-          font-family: 'Nunito Sans', sans-serif;
-          text-decoration: none; }
-          header nav div ul li a a:hover {
-            background-color: #212121;
-            color: #FFF8EA;
-            padding: 0.5rem;
-            border: 1px solid #FFF8EA; }
+          padding: 0.5rem;
+          border: 1px solid #FFF8EA; }
+  header div .devis {
+    display: flex;
+    border: 1px solid #FFF8EA;
+    background-color: #212121;
+    color: #FFF8EA;
+    width: 20rem;
+    height: fit-content;
+    align-content: center;
+    padding: 1%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center; }
+    header div .devis:hover {
+      border: 1px solid #FFF8EA;
+      background-color: #BE5A5A;
+      color: #FFF8EA; }
 
 main section {
   display: grid;
@@ -300,12 +323,3 @@ main section {
     color: #FFF8EA;
     font-weight: bold;
     font-size: 3rem; }
-
-footer {
-  border: 1% solid #212121;
-  padding: 1%;
-  background-color: #212121;
-  color: #FFF8EA;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.5rem;
-  width: 100%; }

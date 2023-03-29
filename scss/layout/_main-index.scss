@@ -1,106 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 62.5%;
-    p{
-        font-family:'Nunito Sans', sans-serif;
-        font-weight: light;
-        text-align: center;
-        margin-bottom: 2%;
-        font-size: 3rem;
-    }
-}
-header{
-    display:flex;
-    border: 1px solid #212121;
-    width:100%;
-    padding:1%;
-    background-color: #212121;
-    color:#FFF8EA;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 2rem;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    div{
-        .logo{
-            font-family:'Stick No Bills', sans-serif;
-            font-weight: light;
-            text-align: left;
-            font-size: 3rem;
-            text-transform: uppercase;
-            color:#FFF8EA;
-            background-color: transparent;
-            text-decoration: none;
-        }
-    }
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #212121;
-        padding: 1 rem 1.5rem;
-        border-radius: 0.5rem;
-        width:100%;
-        margin: 0 auto;
-        padding: 1rem;
-        nav #toggle, nav label{
-            display: none; }
-        .menu{
-            ul{
-                li{
-                    text-decoration: none;
-                    list-style: none;
-                    display: flex;
-                    gap: 2rem;
-                    a{
-                        background-color: #212121;
-                        color: #FFF8EA;
-                        font-size: 2rem;
-                        justify-content: space-around;
-                        padding: 1%;
-                        font-family: 'Nunito Sans', sans-serif;
-                        text-decoration: none;
-                        &:hover{
-                            background-color:#212121;
-                            color: #FFF8EA;
-                            padding:0.5rem;
-                            border: 1px solid #FFF8EA;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    div{
-        .devis{
-            display: flex;
-            border: 1px solid #FFF8EA;
-            background-color: #212121;
-            color: #FFF8EA;
-            width:20rem;
-            height: fit-content;
-            align-content: center;
-            padding:1%;
-            font-size:2rem;
-            font-family: 'Nunito Sans', sans-serif;
-            text-decoration: none;
-            text-align: center;
-            justify-content: center;
-            &:hover{
-                border: 1px solid #FFF8EA;
-                background-color:#BE5A5A;
-                color: #FFF8EA;   
-            }
-        }
-    }
-}
 main{
-    section{
+    .bannerIndex{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(9,1fr);
@@ -108,7 +7,7 @@ main{
         background-image: url("../assets/img/accueil-index/accueil-cover.jpg");
         background-size: cover;
         height: 50rem;
-        div{
+        .bannerTextIndex{
             padding: 5%;
             margin-bottom: 15rem;
             background-position: center;
@@ -134,14 +33,14 @@ main{
                 text-align: center;
                 margin-left: none;
             }
-            a:hover{
+            &:hover{
                 border: 1px solid #BE5A5A;
                 padding:0.5rem;
                 color: #FFF8EA;
                 background-color: #BE5A5A; 
             }
         }
-        div{
+        .bannerSub{
             h2{
                 display: grid;
                 grid-row: 9/10;
@@ -157,7 +56,7 @@ main{
             }
         }
     }
-    section{
+    .nosPrestationsIndex{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto 2fr auto;
@@ -169,7 +68,7 @@ main{
             font-family: 'Stick No Bills', sans-serif;
             margin-top: 5rem;
         }
-        div{
+        .nosPrestationsIndexImg{
             display: grid;
             justify-content: space-evenly;
             align-items: center;
@@ -211,26 +110,8 @@ main{
                     font-size: 3rem;
                 }
             }
-            div{
-                img{
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
-                    column-gap: 2rem;
-                    align-content: space-around;
-                    justify-content: center;
-                    margin-top: 4rem;
-                    margin-bottom: 4rem;
-                }
-                p{
-                    font-family:'Nunito Sans', sans-serif;
-                    font-weight: light;
-                    text-align: center;
-                    margin-bottom: 2%;
-                    font-size: 3rem;
-                }
-            }
         }
-        div{
+        .buttonIndexPrestations{
             display: grid;
             grid-template-columns:repeat(6, 1fr);
             align-content: center;
@@ -250,7 +131,7 @@ main{
             }
         }
     }
-    section{
+    .nosRealisationsIndex{
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
@@ -277,7 +158,7 @@ main{
             justify-content: center;
             margin-top: 4rem;
             margin-bottom: 4rem;
-            div{
+            .carousel-item{
                 div{
                     img{
                         width: 100%; 
@@ -298,17 +179,13 @@ main{
                         height: 40rem; 
                         object-fit:cover;
                     }
-                }
-                button{
-                    background-color: #BE5A5A;
-                    padding: 2%;
                 }
                 button{
                     background-color: #BE5A5A;
                     padding: 2%;
                 }
             }
-            div{
+            .buttonIndexRealisations{
                 display: grid;
                 grid-template-columns:repeat(6, 1fr);
                 align-content: center;
@@ -330,7 +207,7 @@ main{
             }
         }
     }
-    section{
+    .besoinParticulierIndex{
         display: flex;
         flex-direction: column;
         margin-left:2%;
@@ -370,7 +247,7 @@ main{
             }
         }
     }
-    section{
+    .barraPreguntaIndex{
         display: flex;
         flex-direction: column;
         background-color: #8B1A1A;

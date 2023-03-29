@@ -1,0 +1,86 @@
+header{
+    display:flex;
+    border: 1px solid #212121;
+    width:100%;
+    padding:1%;
+    background-color: #212121;
+    color:#FFF8EA;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        .logo{
+            font-family:'Stick No Bills', sans-serif;
+            font-weight: light;
+            text-align: left;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color:#FFF8EA;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #212121;
+        padding: 1 rem 1.5rem;
+        border-radius: 0.5rem;
+        width:100%;
+        margin: 0 auto;
+        padding: 1rem;
+        nav #toggle, nav label{
+            display: none; }
+        .menu{
+            ul{
+                li{
+                    text-decoration: none;
+                    list-style: none;
+                    display: flex;
+                    gap: 2rem;
+                    a{
+                        background-color: #212121;
+                        color: #FFF8EA;
+                        font-size: 2rem;
+                        justify-content: space-around;
+                        padding: 1%;
+                        font-family: 'Nunito Sans', sans-serif;
+                        text-decoration: none;
+                        &:hover{
+                            background-color:#212121;
+                            color: #FFF8EA;
+                            padding:0.5rem;
+                            border: 1px solid #FFF8EA;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div{
+        .devis{
+            display: flex;
+            border: 1px solid #FFF8EA;
+            background-color: #212121;
+            color: #FFF8EA;
+            width:20rem;
+            height: fit-content;
+            align-content: center;
+            padding:1%;
+            font-size:2rem;
+            font-family: 'Nunito Sans', sans-serif;
+            text-decoration: none;
+            text-align: center;
+            justify-content: center;
+            &:hover{
+                border: 1px solid #FFF8EA;
+                background-color:#BE5A5A;
+                color: #FFF8EA;   
+            }
+        }
+    }
+}
