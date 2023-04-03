@@ -37,6 +37,12 @@
        text-decoration: none;
        text-align: center;
        margin-top: 2rem;
+       &:hover {
+        border: 1px solid #BE5A5A;
+        padding: 0.5rem;
+        color: #FFF8EA;
+        background-color:#BE5A5A;
+    }
    }
    .bannerPrestations img{
        width: 100%; 
