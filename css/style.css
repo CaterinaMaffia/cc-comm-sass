@@ -5,12 +5,26 @@
 
 html {
   font-size: 62.5%; }
-  html p {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: light;
-    text-align: center;
-    margin-bottom: 2%;
-    font-size: 3rem; }
+
+.containerGridIndex {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: light;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 3rem; }
+
+footer {
+  border: 1% solid #212121;
+  padding: 1%;
+  background-color: #212121;
+  color: #FFF8EA;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  width: 100%; }
 
 header {
   display: flex;
@@ -19,71 +33,81 @@ header {
   padding: 1%;
   background-color: #212121;
   color: #FFF8EA;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 2rem;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center; }
-  header div .logo {
-    font-family: 'Stick No Bills', sans-serif;
-    font-weight: light;
-    text-align: left;
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: #FFF8EA;
-    background-color: transparent;
-    text-decoration: none; }
-  header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #212121;
-    padding: 1 rem 1.5rem;
-    border-radius: 0.5rem;
-    width: 100%;
-    margin: 0 auto;
-    padding: 1rem; }
-    header nav nav #toggle, header nav nav label {
-      display: none; }
-    header nav .menu ul li {
-      text-decoration: none;
-      list-style: none;
-      display: flex;
-      gap: 2rem; }
-      header nav .menu ul li a {
-        background-color: #212121;
-        color: #FFF8EA;
-        font-size: 2rem;
-        justify-content: space-around;
-        padding: 1%;
-        font-family: 'Nunito Sans', sans-serif;
-        text-decoration: none; }
-        header nav .menu ul li a:hover {
-          background-color: #212121;
-          color: #FFF8EA;
-          padding: 0.5rem;
-          border: 1px solid #FFF8EA; }
-  header div .devis {
-    display: flex;
-    border: 1px solid #FFF8EA;
-    background-color: #212121;
-    color: #FFF8EA;
-    width: 20rem;
-    height: fit-content;
-    align-content: center;
-    padding: 1%;
-    font-size: 2rem;
-    font-family: 'Nunito Sans', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center; }
-    header div .devis:hover {
-      border: 1px solid #FFF8EA;
-      background-color: #BE5A5A;
-      color: #FFF8EA; }
 
-main section {
+li a {
+  background-color: #212121;
+  color: #FFF8EA;
+  font-size: 2rem;
+  justify-content: space-around;
+  padding: 1%;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none; }
+  li a:hover {
+    background-color: #212121;
+    color: #FFF8EA;
+    padding: 0.5rem;
+    border: 1px solid #FFF8EA; }
+
+.navWrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem; }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  padding: 1 rem 1.5rem;
+  border-radius: 0.5rem; }
+  nav #toggle {
+    display: none; }
+  nav label {
+    display: none; }
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem; }
+  .menu ul li {
+    text-decoration: none; }
+
+.devis {
+  display: flex;
+  border: 1px solid #FFF8EA;
+  background-color: #212121;
+  color: #FFF8EA;
+  width: 20rem;
+  height: fit-content;
+  align-content: center;
+  padding: 1%;
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center; }
+  .devis:hover {
+    border: 1px solid #FFF8EA;
+    background-color: #BE5A5A;
+    color: #FFF8EA; }
+
+.logo {
+  font-family: "Stick No Bills", sans-serif;
+  font-weight: light;
+  text-align: left;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #FFF8EA;
+  background-color: transparent;
+  text-decoration: none; }
+
+.bannerIndex {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(9, 1fr);
@@ -91,126 +115,101 @@ main section {
   background-image: url("../assets/img/accueil-index/accueil-cover.jpg");
   background-size: cover;
   height: 50rem; }
-  main section div {
-    padding: 5%;
-    margin-bottom: 15rem;
-    background-position: center;
-    text-align: left;
+
+.bannerTextIndex {
+  padding: 5%;
+  margin-bottom: 15rem;
+  background-position: center;
+  text-align: left;
+  color: #FFF8EA; }
+  .bannerTextIndex h1 {
+    grid-row: 4 / 7;
+    align-self: center;
+    font-size: 5rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: lighter;
     color: #FFF8EA; }
-    main section div h1 {
-      grid-row: 4 / 7;
-      align-self: center;
-      font-size: 5rem;
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: lighter;
-      color: #FFF8EA; }
-    main section div a {
-      grid-row: 7 /8;
-      border: 1px solid #FFF8EA;
-      padding: 0.5rem;
-      color: #FFF8EA;
-      width: 20%;
-      font-size: 2rem;
-      font-family: 'Nunito Sans', sans-serif;
-      text-decoration: none;
-      text-align: center;
-      margin-left: none; }
-    main section div a:hover {
+  .bannerTextIndex a {
+    grid-row: 7 /8;
+    border: 1px solid #FFF8EA;
+    padding: 0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size: 2rem;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-left: none; }
+    .bannerTextIndex a:hover {
       border: 1px solid #BE5A5A;
       padding: 0.5rem;
       color: #FFF8EA;
       background-color: #BE5A5A; }
-  main section div h2 {
-    display: grid;
-    grid-row: 9/10;
-    font-size: 3rem;
-    width: 100%;
-    height: fit-content;
-    padding: 1% 4% 1% 4%;
-    font-family: 'Nunito Sans', sans-serif;
-    background-color: white;
-    border: white 3px solid;
-    color: #212121;
-    text-align: center; }
 
-main section {
+.bannerSub {
+  display: grid;
+  grid-row: 9/10;
+  font-size: 3rem;
+  width: 100%;
+  height: fit-content;
+  padding: 1% 4% 1% 4%;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: white;
+  border: white 3px solid;
+  color: #212121;
+  text-align: center; }
+
+.nosPrestationsIndex {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 2fr auto;
   justify-content: center;
   align-content: center; }
-  main section h3 {
+  .nosPrestationsIndex h3 {
     font-size: 5rem;
     text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Stick No Bills", sans-serif;
     margin-top: 5rem; }
-  main section div {
-    display: grid;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    text-align: center; }
-    main section div div img {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 2rem;
-      align-content: space-around;
-      justify-content: center;
-      margin-top: 4rem;
-      margin-bottom: 4rem; }
-    main section div div p {
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: light;
-      text-align: center;
-      margin-bottom: 2%;
-      font-size: 3rem; }
-    main section div div img {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 2rem;
-      align-content: space-around;
-      justify-content: center;
-      margin-top: 4rem;
-      margin-bottom: 4rem; }
-    main section div div p {
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: light;
-      text-align: center;
-      margin-bottom: 2%;
-      font-size: 3rem; }
-    main section div div img {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 2rem;
-      align-content: space-around;
-      justify-content: center;
-      margin-top: 4rem;
-      margin-bottom: 4rem; }
-    main section div div p {
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: light;
-      text-align: center;
-      margin-bottom: 2%;
-      font-size: 3rem; }
-  main section div {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    align-content: center; }
-    main section div a {
-      grid-column: 2/6;
-      color: #FFF8EA;
-      background-color: #BE5A5A;
-      width: 100%;
-      height: fit-content;
-      padding: 1%;
-      font-size: 2rem;
-      font-family: 'Nunito Sans', sans-serif;
-      text-decoration: none;
-      text-transform: uppercase;
-      justify-content: center;
-      text-align: center; }
 
-main section {
+.nosPrestionsIndexImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  align-content: space-around;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.nosPrestationsIndexImg div {
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.indexImg {
+  width: 100%;
+  height: 30rem; }
+
+.buttonIndexPrestations {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-content: center; }
+  .buttonIndexPrestations a {
+    grid-column: 2/6;
+    color: #FFF8EA;
+    background-color: #BE5A5A;
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    font-size: 2rem;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center; }
+
+.nosRealisationsIndex {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -218,61 +217,49 @@ main section {
   background-color: #C5ADAD;
   padding: 2%;
   text-align: center; }
-  main section h3 {
+  .nosRealisationsIndex h3 {
     text-justify: center;
     text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Stick No Bills", sans-serif;
     font-size: 4rem; }
-  main section p {
-    font-family: 'Nunito Sans', sans-serif;
+  .nosRealisationsIndex p {
+    font-family: "Nunito Sans", sans-serif;
     color: #8B1A1A;
     font-size: 2rem; }
-  main section div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
-    align-content: space-around;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem; }
-    main section div div div img {
-      width: 100%;
-      height: 40rem;
-      object-fit: cover; }
-    main section div div div img {
-      width: 100%;
-      height: 40rem;
-      object-fit: cover; }
-    main section div div div img {
-      width: 100%;
-      height: 40rem;
-      object-fit: cover; }
-    main section div div button {
-      background-color: #BE5A5A;
-      padding: 2%; }
-    main section div div button {
-      background-color: #BE5A5A;
-      padding: 2%; }
-    main section div div {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      align-content: center; }
-      main section div div a {
-        margin-top: 2rem;
-        grid-column: 2/ 6;
-        color: #FFF8EA;
-        background-color: #BE5A5A;
-        width: 100%;
-        height: fit-content;
-        padding: 1%;
-        font-size: 2rem;
-        font-family: 'Nunito Sans', sans-serif;
-        text-decoration: none;
-        text-transform: uppercase;
-        justify-content: center;
-        text-align: center; }
 
-main section {
+.carousel-inner img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover; }
+
+.carousel-control-prev-icon:hover {
+  background-color: #BE5A5A;
+  padding: 2%; }
+
+.carousel-control-next-icon:hover {
+  background-color: #BE5A5A;
+  padding: 2%; }
+
+.buttonIndexRealisations {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-content: center; }
+  .buttonIndexRealisations a {
+    margin-top: 2rem;
+    grid-column: 2/ 6;
+    color: #FFF8EA;
+    background-color: #BE5A5A;
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    font-size: 2rem;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center; }
+
+.besoinParticulierIndex {
   display: flex;
   flex-direction: column;
   margin-left: 2%;
@@ -281,45 +268,603 @@ main section {
   margin-top: 2%;
   text-align: center;
   font-size: 2rem; }
-  main section p {
-    font-family: 'Nunito Sans', sans-serif;
+  .besoinParticulierIndex h3 {
+    text-justify: center;
+    text-align: center;
+    font-family: "Stick No Bills", sans-serif;
+    font-size: 4rem; }
+  .besoinParticulierIndex p {
+    font-family: "Nunito Sans", sans-serif;
     font-weight: light;
     text-align: center;
     font-size: 2.5rem; }
-  main section h3 {
-    text-justify: center;
-    text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
-    font-size: 4rem; }
-  main section div {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    align-content: center; }
-    main section div a {
-      grid-column: 2/6;
-      color: #FFF8EA;
-      background-color: #BE5A5A;
-      width: 100%;
-      height: fit-content;
-      padding: 1%;
-      font-size: 2rem;
-      font-family: 'Nunito Sans', sans-serif;
-      text-decoration: none;
-      text-transform: uppercase;
-      justify-content: center;
-      text-align: center; }
 
-main section {
+.buttonIndexDevis {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-content: center; }
+  .buttonIndexDevis a {
+    grid-column: 2/6;
+    color: #FFF8EA;
+    background-color: #BE5A5A;
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    font-size: 2rem;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center; }
+
+.barraPreguntaIndex {
   display: flex;
   flex-direction: column;
   background-color: #8B1A1A;
   margin: 5%;
   color: #FFF8EA;
   padding: 2%; }
-  main section p {
+  .barraPreguntaIndex p {
     text-justify: left;
     text-align: left;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Stick No Bills", sans-serif;
     color: #FFF8EA;
     font-weight: bold;
     font-size: 3rem; }
+
+.bannerRealisations {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  width: 100%;
+  background-image: url("../assets/img/realisations/realisations-cover.jpg");
+  background-size: cover;
+  height: 50rem; }
+
+.bannerRealisations div {
+  background-image: url("../assets/img/realisations/realisations-cover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  padding: 5%;
+  background-position: center;
+  text-align: left;
+  color: #FFF8EA; }
+
+.bannerRealisations h1 {
+  display: flex;
+  align-items: center;
+  margin-left: none;
+  font-size: 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: #FFF8EA; }
+
+.bannerRealisations a {
+  flex-wrap: nowrap;
+  border: 1px solid #FFF8EA;
+  padding: 0.5rem;
+  color: #FFF8EA;
+  width: 20%;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center; }
+
+.bannerRealisations img {
+  width: 100%;
+  height: 50rem; }
+
+.realisations {
+  display: flex;
+  flex-direction: column; }
+
+.realisations h2 {
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.realisationsImg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 2rem; }
+
+.realisationsImg img {
+  width: 30%;
+  height: 10%;
+  margin-bottom: 2rem; }
+
+/* PAGINA PRESTATIONS */
+.bannerPrestations {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  width: 100%;
+  background-image: url("../assets/img/prestations/prestations-cover.jpg");
+  background-size: cover;
+  height: 50rem; }
+
+.bannerPrestations div {
+  background-image: url("../assets/img/prestations/prestations-cover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  padding: 5%;
+  background-position: center;
+  text-align: left;
+  color: #FFF8EA; }
+
+.bannerPrestations h1 {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: #FFF8EA;
+  margin-bottom: 2rem; }
+
+.bannerPrestations a {
+  flex-wrap: nowrap;
+  border: 1px solid #FFF8EA;
+  padding: 0.5rem;
+  color: #FFF8EA;
+  width: 20%;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2rem; }
+
+.bannerPrestations img {
+  width: 100%;
+  height: 50rem; }
+
+.prestations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.prestationsTitle {
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.prestations div h2 {
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: 2rem; }
+
+.prestations p {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1%; }
+
+.caja {
+  color: #212121;
+  background-color: #C5ADAD;
+  padding: 1%;
+  text-align: center; }
+
+.prestationsButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  justify-content: space-between; }
+
+.prestationsButtons a {
+  display: grid;
+  justify-content: space-around;
+  color: #FFF8EA;
+  background-color: #BE5A5A;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.bannerPrestations {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  width: 100%;
+  background-image: url("../assets/img/prestations/prestations-cover.jpg");
+  background-size: cover;
+  height: 50rem; }
+
+.bannerPrestations div {
+  background-image: url("../assets/img/prestations/prestations-cover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  padding: 5%;
+  background-position: center;
+  text-align: left;
+  color: #FFF8EA; }
+
+.bannerPrestations h1 {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: #FFF8EA;
+  margin-bottom: 2rem; }
+
+.bannerPrestations a {
+  flex-wrap: nowrap;
+  border: 1px solid #FFF8EA;
+  padding: 0.5rem;
+  color: #FFF8EA;
+  width: 20%;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2rem; }
+
+.bannerPrestations img {
+  width: 100%;
+  height: 50rem; }
+
+.prestations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.prestationsTitle {
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.prestations div h2 {
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: 2rem; }
+
+.prestations p {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1%; }
+
+.caja {
+  color: #212121;
+  background-color: #C5ADAD;
+  padding: 1%;
+  text-align: center; }
+
+.prestationsButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  justify-content: space-between; }
+
+.prestationsButtons a {
+  display: grid;
+  justify-content: space-around;
+  color: #FFF8EA;
+  background-color: #BE5A5A;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.bannerEquipe {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  width: 100%;
+  background-image: url("../assets/img/equipe/equipe-cover.jpg");
+  background-size: cover;
+  height: 50rem; }
+
+.bannerEquipe div {
+  background-image: url("../assets/img/equipe/equipe-cover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  padding: 5%;
+  background-position: center;
+  text-align: left;
+  color: #FFF8EA; }
+
+.bannerEquipe h1 {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: #FFF8EA; }
+
+.bannerEquipe a {
+  flex-wrap: nowrap;
+  border: 1px solid #FFF8EA;
+  padding: 0.5rem;
+  color: #FFF8EA;
+  width: 20%;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center; }
+
+.bannerEquipe img {
+  width: 100%;
+  height: 50rem; }
+
+.nousSommes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.nousSommes h2 {
+  font-size: 5rem;
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.nousSommes h3 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  font-family: 'Stick No Bills', sans-serif;
+  font-weight: bold;
+  color: #BE5A5A;
+  text-align: center; }
+
+.nousSommes img {
+  width: 50%;
+  height: 50rem; }
+
+.notreApproche {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.notreApproche h3 {
+  font-size: 4rem;
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif; }
+
+.notreApprocheImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.notreApprocheImg img {
+  width: 40%;
+  height: 20rem;
+  margin: 1rem; }
+
+.notreApprocheText {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: light;
+  font-size: 2rem;
+  justify-content: space-around; }
+
+.parlezNous {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #212121;
+  background-color: #C5ADAD;
+  padding: 1%;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem; }
+
+.parlezNous h3 {
+  font-size: 4rem;
+  color: #8B1A1A;
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif; }
+
+.parlezNousButton {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.parlezNousButton a {
+  color: #FFF8EA;
+  background-color: #8B1A1A;
+  width: 30%;
+  height: 10%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5%;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase; }
+
+.bannerClients {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  width: 100%;
+  background-image: url("../assets/img/clients/clients-cover.jpg");
+  background-size: cover;
+  height: 50rem; }
+
+.bannerClients div {
+  background-image: url("../assets/img/clients/clients-cover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  padding: 5%;
+  background-position: center;
+  text-align: left;
+  color: #FFF8EA; }
+
+.bannerClients h1 {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: #FFF8EA; }
+
+.bannerClients a {
+  flex-wrap: nowrap;
+  border: 1px solid #FFF8EA;
+  padding: 0.5rem;
+  color: #FFF8EA;
+  width: 20%;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center; }
+
+.bannerClients a:hover {
+  background-color: #212121; }
+
+.bannerClients img {
+  width: 100%;
+  height: 60rem; }
+
+.clientsTitle {
+  font-size: 4rem;
+  text-justify: center;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif;
+  margin-top: 4rem; }
+
+.clientsCards {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center; }
+
+.clientsCards div img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover; }
+
+.ShakeCafe {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem; }
+
+.ShakeCafe a {
+  display: grid;
+  color: #FFF8EA;
+  background-color: #BE5A5A;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center; }
+
+.ElAlmacen {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem; }
+
+.ElAlmacen a {
+  display: grid;
+  color: #FFF8EA;
+  background-color: #BE5A5A;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center; }
+
+.Pepponita {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem; }
+
+.Pepponita a {
+  display: grid;
+  color: #FFF8EA;
+  background-color: #BE5A5A;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center; }
+
+.The22 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem; }
+
+.The22 a {
+  display: grid;
+  color: #FFF8EA;
+  background-color: #BE5A5A;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center; }
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #BE5A5A;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center; }
+  .formulario p {
+    font-size: 4rem;
+    color: #FFF8EA;
+    align-items: center;
+    font-weight: bolder; }

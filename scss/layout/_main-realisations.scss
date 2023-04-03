@@ -1,0 +1,163 @@
+.bannerRealisations{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9,1fr);
+    width:100%;
+    background-image: url("../assets/img/realisations/realisations-cover.jpg");
+    background-size: cover;
+    height: 50rem;
+}
+.bannerRealisations div{
+    background-image: url("../assets/img/realisations/realisations-cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    padding: 5%;
+    background-position: center;
+    text-align: left;
+    color: #FFF8EA;
+}
+.bannerRealisations h1{
+    display: flex;
+    align-items:center;
+    margin-left: none;
+    font-size: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    color:#FFF8EA;
+}
+.bannerRealisations a{
+    flex-wrap: nowrap;
+    border: 1px solid #FFF8EA;
+    padding:0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size:2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.bannerRealisations img{
+    width: 100%; 
+    height: 50rem;
+}
+.realisations{
+display: flex;
+flex-direction: column;
+}
+.realisations h2{
+    text-justify: center;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size:5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.realisationsImg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 2rem;
+}
+.realisationsImg img{
+    width: 30%;
+    height: 10%;
+    margin-bottom: 2rem;
+}
+/* PAGINA PRESTATIONS */
+.bannerPrestations{
+ display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9,1fr);
+    width:100%;
+    background-image: url("../assets/img/prestations/prestations-cover.jpg");
+    background-size: cover;
+    height: 50rem;
+}
+.bannerPrestations div{
+    background-image: url("../assets/img/prestations/prestations-cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    padding: 5%;
+    background-position: center;
+    text-align: left;
+    color: #FFF8EA;   
+}
+.bannerPrestations h1{
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    color:#FFF8EA;
+    margin-bottom: 2rem;
+}
+.bannerPrestations a{
+    flex-wrap: nowrap;
+    border: 1px solid #FFF8EA;
+    padding:0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size:2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2rem;
+}
+.bannerPrestations img{
+    width: 100%; 
+    height: 50rem;
+}
+.prestations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prestationsTitle{
+    text-justify: center;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size:5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;  
+}
+.prestations div h2{
+    font-size:4rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+.prestations p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1%;
+}
+.caja{
+    color:#212121;
+    background-color:#C5ADAD;
+    padding:1%;
+    text-align: center;  
+}
+.prestationsButtons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    justify-content: space-between;  
+}
+.prestationsButtons a{
+    display: grid;
+    justify-content: space-around;
+    color:#FFF8EA;
+    background-color:#BE5A5A;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
