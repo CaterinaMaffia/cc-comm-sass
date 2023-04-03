@@ -1,0 +1,39 @@
+@media (max-width:768px){
+nav {
+	.menu {
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+	}
+	label {
+		display: inline-flex;
+		cursor: pointer;
+	}
+	#toggle {
+		&:checked {
+			~ {
+				.menu {
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+.menu {
+	ul {
+		flex-direction: column;
+		align-items: center;
+		padding: 0.5rem 0;
+	}
+}
+.bannerRealisations {
+	h1 {
+		font-size: 4rem;
+	}
+}
+.realisations {
+	h2 {
+		font-size: 5rem;
+	}
+}
+}
