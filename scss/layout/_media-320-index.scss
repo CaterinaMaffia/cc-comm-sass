@@ -1,0 +1,118 @@
+$color_1: #FFF8EA;
+$font-family_1: 'Nunito Sans', sans-serif;
+$font-family_2: 'Stick No Bills', sans-serif;
+$background-color_1: #212121;
+
+@media (max-width:320px){
+.bannerTextIndex {
+	h1 {
+		font-size: 4rem;
+	}
+}
+p {
+	font-family: $font-family_1;
+	font-weight: light;
+	text-align: center;
+	margin-bottom: 1%;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+header {
+	display: flex;
+	border: 1px solid #212121;
+	width: 100%;
+	padding: 1%;
+	background-color: $background-color_1;
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 1rem;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+ul {
+	display: inline;
+	list-style: none;
+	column-gap: 0.5rem;
+}
+li {
+	a {
+		background-color: $background-color_1;
+		color: $color_1;
+		font-size: 1.5rem;
+		justify-content: space-around;
+		padding: 0.5%;
+		font-family: $font-family_1;
+		text-decoration: none;
+	}
+}
+.devis {
+	display: flex;
+	padding: 1%;
+	font-size: 1.5rem;
+}
+.bannerSub {
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 1% 4% 1% 4%;
+}
+.nosPrestationsIndex {
+	h3 {
+		font-size: 4rem;
+		text-align: center;
+		font-family: $font-family_2;
+		margin-top: 2rem;
+	}
+	p {
+		font-size: 1.2rem;
+	}
+}
+.indexImg {
+	width: 100%;
+	height: 10rem;
+}
+.nosPrestionsIndexImg {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 0.5rem;
+	align-content: space-around;
+	justify-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.nosPrestationsIndexImg {
+	div {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
+.buttonIndexPrestations {
+	a {
+		font-size: 1.2rem;
+		grid-column: 2/6;
+		height: fit-content;
+	}
+}
+.buttonIndexRealisations {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	align-content: center;
+	a {
+		grid-column: 2/6;
+		font-size: 1.2rem;
+		height: fit-content;
+	}
+}
+.besoinParticulierIndex {
+	p {
+		font-size: 1.5rem;
+	}
+}
+.buttonIndexDevis {
+	a {
+		grid-column: 2/6;
+		font-size: 1.2rem;
+		height: fit-content;
+	}
+}
+}

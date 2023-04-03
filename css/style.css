@@ -1002,3 +1002,165 @@ nav {
     margin-top: 1rem; }
   .nousSommes P {
     font-size: 2rem; } }
+
+@media (max-width: 320px) {
+  .bannerTextIndex h1 {
+    font-size: 4rem; }
+  p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: light;
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem; }
+  header {
+    display: flex;
+    border: 1px solid #212121;
+    width: 100%;
+    padding: 1%;
+    background-color: #212121;
+    color: #FFF8EA;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center; }
+  ul {
+    display: inline;
+    list-style: none;
+    column-gap: 0.5rem; }
+  li a {
+    background-color: #212121;
+    color: #FFF8EA;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    padding: 0.5%;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none; }
+  .devis {
+    display: flex;
+    padding: 1%;
+    font-size: 1.5rem; }
+  .bannerSub {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 1% 4% 1% 4%; }
+  .nosPrestationsIndex h3 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Stick No Bills", sans-serif;
+    margin-top: 2rem; }
+  .nosPrestationsIndex p {
+    font-size: 1.2rem; }
+  .indexImg {
+    width: 100%;
+    height: 10rem; }
+  .nosPrestionsIndexImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    align-content: space-around;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .nosPrestationsIndexImg div {
+    display: flex;
+    justify-content: space-evenly; }
+  .buttonIndexPrestations a {
+    font-size: 1.2rem;
+    grid-column: 2/6;
+    height: fit-content; }
+  .buttonIndexRealisations {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-content: center; }
+    .buttonIndexRealisations a {
+      grid-column: 2/6;
+      font-size: 1.2rem;
+      height: fit-content; }
+  .besoinParticulierIndex p {
+    font-size: 1.5rem; }
+  .buttonIndexDevis a {
+    grid-column: 2/6;
+    font-size: 1.2rem;
+    height: fit-content; } }
+
+@media (max-width: 320px) {
+  .bannerRealisations h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem; }
+  .realisations h2 {
+    font-size: 4rem; } }
+
+@media (max-width: 320px) {
+  .bannerPrestations h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  .prestationsTitle {
+    font-size: 4rem;
+    margin-bottom: 1rem; }
+  .prestations p {
+    font-size: 1.2rem;
+    margin: 1rem; }
+  .prestations div h2 {
+    font-size: 2rem;
+    margin-top: 1rem; }
+  .prestationsButtons a {
+    display: grid;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; } }
+
+@media (max-width: 320px) {
+  .bannerEquipe h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem; }
+  .bannerEquipe a {
+    width: 30%;
+    height: 4rem; }
+  .nousSommes h2 {
+    font-size: 4rem; }
+  .nousSommes img {
+    width: 50%;
+    height: 16rem;
+    margin-bottom: 1rem;
+    margin: 1rem; }
+  .nousSommes h3 {
+    font-size: 3rem;
+    margin-top: 1rem; }
+  .nousSommes P {
+    font-size: 1.5rem; }
+  .notreApprocheText {
+    font-size: 1rem; }
+  .parlezNousButton a {
+    color: #FFF8EA;
+    background-color: #8B1A1A;
+    width: 40%;
+    height: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5%;
+    font-size: 1.2rem; }
+  .parlezNous h3 {
+    font-size: 2rem; }
+  .notreApproche h3 {
+    font-size: 3rem; }
+  .notreApprocheImg img {
+    width: 30%;
+    height: 10rem;
+    margin: 0.5rem; } }
+
+@media (max-width: 320px) {
+  .bannerClients h1 {
+    font-size: 4rem; }
+  .bannerClients a {
+    font-size: 1.75rem;
+    width: 80%;
+    height: 4rem; }
+  .clientsTitle {
+    font-size: 3rem; }
+  .clientsCards div a {
+    font-size: 1.5rem; } }
