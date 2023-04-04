@@ -1,3 +1,11 @@
+$color_1: #FFF8EA;
+$font-family_1: 'Nunito Sans', sans-serif;
+$font-family_2: 'Stick No Bills', sans-serif;
+$background-color_1: #212121;
+$background-color_2: #BE5A5A;
+$background-color_3:#8B1A1A;
+$background-color_4:#C5ADAD;
+
 .bannerPrestations {
     display: grid;
     grid-template-columns: 1fr;
@@ -14,25 +22,25 @@
       padding: 5%;
       background-position: center;
       text-align: left;
-      color: #FFF8EA;
+      color: $color_1;
     } 
     h1 {
       display: flex;
       align-items: center;
       font-size: 5rem;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: $font-family_1;
       font-weight: lighter;
-      color: #FFF8EA;
+      color: $color_1;
       margin-bottom: 2rem;
     } 
     a {
       flex-wrap: nowrap;
-      border: 1px solid #FFF8EA;
+      border: 1px solid $color_1;
       padding: 0.5rem;
-      color: #FFF8EA;
+      color: $color_1;
       width: 20%;
       font-size: 2rem;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: $font-family_1;
       text-decoration: none;
       text-align: center;
       margin-top: 2rem;
@@ -55,7 +63,7 @@
   .prestationsTitle {
     text-justify: center;
     text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: $font-family_2;
     font-size: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -63,7 +71,7 @@
   .prestations {
     div h2 {
       font-size: 4rem;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: $font-family_1;
       text-align: center;
       margin-top: 2rem;
     }  
@@ -74,8 +82,8 @@
     }
   }
   .caja {
-    color: #212121;
-    background-color: #C5ADAD;
+    color: $background-color_1;
+    background-color: $background-color_4;
     padding: 1%;
     text-align: center;
   }
@@ -87,20 +95,20 @@
      a {
       display: grid;
       justify-content: space-around;
-      color: #FFF8EA;
-      background-color: #BE5A5A;
+      color: $color_1;
+      background-color: $background-color_2;
       font-size: 2rem;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: $font-family_1;
       text-decoration: none;
       text-align: center;
       text-transform: uppercase;
       margin-top: 2rem;
       margin-bottom: 2rem;
       &:hover {
-        border: 1px solid #212121;
+        border: 1px solid $background-color_1;
         padding: 0.5rem;
-        color: #FFF8EA;
-        background-color: #212121;
+        color: $color_1;
+        background-color: $background-color_1;
     }
     }
   }

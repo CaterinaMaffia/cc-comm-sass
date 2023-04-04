@@ -1,11 +1,11 @@
 $color_1: #FFF8EA;
-$background-color_1: #BE5A5A;
+$background-color_2: #BE5A5A;
 
 .formulario {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
-	background-color: $background-color_1;
+	background-color: $background-color_2;
 	margin: 3rem;
 	justify-content: center;
 	align-items: center;

@@ -3,7 +3,6 @@ $font-family_1: 'Nunito Sans', sans-serif;
 $font-family_2: 'Stick No Bills', sans-serif;
 $background-color_1: #212121;
 $background-color_2: #BE5A5A;
-$background-color_3: transparent;
 
 header {
 	display: flex;
@@ -92,6 +91,6 @@ nav {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: $color_1;
-	background-color: $background-color_3;
+	background-color: transparent;
 	text-decoration: none;
 }
