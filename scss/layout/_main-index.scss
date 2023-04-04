@@ -43,10 +43,7 @@ $background-color_4: #8B1A1A;
 		text-align: center;
 		margin-left: none;
 		&:hover {
-			border: 1px solid #BE5A5A;
-			padding: 0.5rem;
-			color: #FFF8EA;
-			background-color: #BE5A5A;
+			@include hover;
 		}
 	}
 }

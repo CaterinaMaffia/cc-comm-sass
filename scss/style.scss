@@ -1,3 +1,5 @@
+@import "./utilities/mixins";
+
 @import "./base/reset";
 @import "./layout/_footer.scss";
 @import "./layout/_header.scss";
@@ -9,12 +11,12 @@
 @import "./layout/main-formulario";
 
 
-@import "./layout/media-786-index";
-@import "./layout/media-768-realisations";
-@import "./layout/media-768-prestations";
-@import "./layout/media-768-equipe";
-@import "./layout/_media-320-index.scss";
-@import "./layout/media-320-realisations";
-@import "./layout/_media-320-prestations.scss";
-@import "./layout/media-320-equipe";
-@import "./layout/media-320-clients";
+@import "./layout/media/media-786-index";
+@import "./layout/media/media-768-realisations";
+@import "./layout/media/media-768-prestations";
+@import "./layout/media/media-768-equipe";
+@import "./layout/media/_media-320-index.scss";
+@import "./layout/media/media-320-realisations";
+@import "./layout/media/_media-320-prestations.scss";
+@import "./layout/media/media-320-equipe";
+@import "./layout/media/media-320-clients";

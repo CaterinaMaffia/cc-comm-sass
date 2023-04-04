@@ -5,92 +5,90 @@
      width:100%;
      background-image: url("../assets/img/equipe/equipe-cover.jpg");
      background-size: cover;
-     height: 50rem; 
- }
- .bannerEquipe div{
-     background-image: url("../assets/img/equipe/equipe-cover.jpg");
-     background-size: cover;
-     width: 100%;
      height: 50rem;
-     padding: 5%;
-     background-position: center;
-     text-align: left;
-     color: #FFF8EA;     
- }
- .bannerEquipe h1{
-     display: flex;
-     align-items: center;
-     font-size: 5rem;
-     font-family: 'Nunito Sans', sans-serif;
-     font-weight: lighter;
-     color:#FFF8EA;
- }
- .bannerEquipe a{
-     flex-wrap: nowrap;
-     border: 1px solid #FFF8EA;
-     padding:0.5rem;
-     color: #FFF8EA;
-     width: 20%;
-     font-size:2rem;
-     font-family: 'Nunito Sans', sans-serif;
-     text-decoration: none;
-     text-align: center;
-     &:hover {
-        border: 1px solid #BE5A5A;
-        padding: 0.5rem;
-        color: #BE5A5A;
+     div{
+        background-image: url("../assets/img/equipe/equipe-cover.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 50rem;
+        padding: 5%;
+        background-position: center;
+        text-align: left;
+        color: #FFF8EA;     
     }
- }
- .bannerEquipe img{
-     width: 100%; 
-     height: 50rem;
+    h1{
+        display: flex;
+        align-items: center;
+        font-size: 5rem;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: lighter;
+        color:#FFF8EA;
+    }
+    a{
+        flex-wrap: nowrap;
+        border: 1px solid #FFF8EA;
+        padding:0.5rem;
+        color: #FFF8EA;
+        width: 20%;
+        font-size:2rem;
+        font-family: 'Nunito Sans', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        &:hover {
+            @include hover;
+       }
+    }
+    img{
+        width: 100%; 
+        height: 50rem;
+    }
  }
  .nousSommes{
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: space-around;
- }
- .nousSommes h2{
+     h2{
      font-size: 5rem;
      text-justify: center;
      text-align: center;
      font-family: 'Stick No Bills', sans-serif; 
      margin-top: 2rem;
      margin-bottom: 2rem;
- }
- .nousSommes h3{
+    }
+    h3{
      font-size:4rem;
      margin-top:2rem;
      font-family: 'Stick No Bills', sans-serif;
      font-weight: bold;
      color:#BE5A5A;
      text-align: center;
- }
- .nousSommes img{
+    }
+    img{
      width: 50%;
      height: 50rem;
+    }
  }
  .notreApproche{
      display: flex;
      flex-direction: column;
      justify-content: space-around;
- }
- .notreApproche h3{
+     h3{
      font-size: 4rem;
      text-justify: center;
      text-align: center;
      font-family: 'Stick No Bills', sans-serif; 
+    }
  }
  .notreApprocheImg{
      display: flex;
      flex-direction: row;
      justify-content: space-around;
- }
- .notreApprocheImg img{
+     img{
      width: 40%;
      height: 20rem;
      margin: 1rem;
+    }
  }
  .notreApprocheText{
      display: flex;
@@ -110,20 +108,19 @@
      text-align: center;
      font-size:2.5rem;
      margin-bottom: 3rem;
- }
- .parlezNous h3{
+     h3{
      font-size: 4rem;
      color:#8B1A1A;
      text-justify: center;
      text-align: center;
      font-family: 'Stick No Bills', sans-serif;
+    }
  }
  .parlezNousButton{
      display: flex;
      align-items: center;
      justify-content: center;
- }
- .parlezNousButton a{
+     a{
      color:#FFF8EA;
      background-color:#8B1A1A;
      width: 30%;
@@ -136,4 +133,5 @@
      text-decoration: none;
      text-align: center;
      text-transform: uppercase; 
+    }
  }

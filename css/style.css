@@ -320,52 +320,52 @@ nav {
   background-image: url("../assets/img/realisations/realisations-cover.jpg");
   background-size: cover;
   height: 50rem; }
-
-.bannerRealisations div {
-  background-image: url("../assets/img/realisations/realisations-cover.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 50rem;
-  padding: 5%;
-  background-position: center;
-  text-align: left;
-  color: #FFF8EA; }
-
-.bannerRealisations h1 {
-  display: flex;
-  align-items: center;
-  margin-left: none;
-  font-size: 5rem;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
-  color: #FFF8EA; }
-
-.bannerRealisations a {
-  flex-wrap: nowrap;
-  border: 1px solid #FFF8EA;
-  padding: 0.5rem;
-  color: #FFF8EA;
-  width: 20%;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center; }
-
-.bannerRealisations img {
-  width: 100%;
-  height: 50rem; }
+  .bannerRealisations div {
+    background-image: url("../assets/img/realisations/realisations-cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    padding: 5%;
+    background-position: center;
+    text-align: left;
+    color: #FFF8EA; }
+  .bannerRealisations h1 {
+    display: flex;
+    align-items: center;
+    margin-left: none;
+    font-size: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    color: #FFF8EA; }
+  .bannerRealisations a {
+    flex-wrap: nowrap;
+    border: 1px solid #FFF8EA;
+    padding: 0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center; }
+    .bannerRealisations a:hover {
+      border: 1px solid #BE5A5A;
+      padding: 0.5rem;
+      color: #FFF8EA;
+      background-color: #BE5A5A; }
+  .bannerRealisations img {
+    width: 100%;
+    height: 50rem; }
 
 .realisations {
   display: flex;
   flex-direction: column; }
-
-.realisations h2 {
-  text-justify: center;
-  text-align: center;
-  font-family: 'Stick No Bills', sans-serif;
-  font-size: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
+  .realisations h2 {
+    text-justify: center;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
 
 .realisationsImg {
   display: flex;
@@ -374,13 +374,11 @@ nav {
   align-items: center;
   justify-content: space-around;
   row-gap: 2rem; }
+  .realisationsImg img {
+    width: 30%;
+    height: 10%;
+    margin-bottom: 2rem; }
 
-.realisationsImg img {
-  width: 30%;
-  height: 10%;
-  margin-bottom: 2rem; }
-
-/* PAGINA PRESTATIONS */
 .bannerPrestations {
   display: grid;
   grid-template-columns: 1fr;
@@ -389,41 +387,42 @@ nav {
   background-image: url("../assets/img/prestations/prestations-cover.jpg");
   background-size: cover;
   height: 50rem; }
-
-.bannerPrestations div {
-  background-image: url("../assets/img/prestations/prestations-cover.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 50rem;
-  padding: 5%;
-  background-position: center;
-  text-align: left;
-  color: #FFF8EA; }
-
-.bannerPrestations h1 {
-  display: flex;
-  align-items: center;
-  font-size: 5rem;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
-  color: #FFF8EA;
-  margin-bottom: 2rem; }
-
-.bannerPrestations a {
-  flex-wrap: nowrap;
-  border: 1px solid #FFF8EA;
-  padding: 0.5rem;
-  color: #FFF8EA;
-  width: 20%;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 2rem; }
-
-.bannerPrestations img {
-  width: 100%;
-  height: 50rem; }
+  .bannerPrestations div {
+    background-image: url("../assets/img/prestations/prestations-cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    padding: 5%;
+    background-position: center;
+    text-align: left;
+    color: #FFF8EA; }
+  .bannerPrestations h1 {
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    color: #FFF8EA;
+    margin-bottom: 2rem; }
+  .bannerPrestations a {
+    flex-wrap: nowrap;
+    border: 1px solid #FFF8EA;
+    padding: 0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2rem; }
+    .bannerPrestations a:hover {
+      border: 1px solid #BE5A5A;
+      padding: 0.5rem;
+      color: #FFF8EA;
+      background-color: #BE5A5A; }
+  .bannerPrestations img {
+    width: 100%;
+    height: 50rem; }
 
 .prestations {
   display: flex;
@@ -461,113 +460,23 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr;
   justify-content: space-between; }
-
-.prestationsButtons a {
-  display: grid;
-  justify-content: space-around;
-  color: #FFF8EA;
-  background-color: #BE5A5A;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
-.bannerPrestations {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(9, 1fr);
-  width: 100%;
-  background-image: url("../assets/img/prestations/prestations-cover.jpg");
-  background-size: cover;
-  height: 50rem; }
-
-.bannerPrestations div {
-  background-image: url("../assets/img/prestations/prestations-cover.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 50rem;
-  padding: 5%;
-  background-position: center;
-  text-align: left;
-  color: #FFF8EA; }
-
-.bannerPrestations h1 {
-  display: flex;
-  align-items: center;
-  font-size: 5rem;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
-  color: #FFF8EA;
-  margin-bottom: 2rem; }
-
-.bannerPrestations a {
-  flex-wrap: nowrap;
-  border: 1px solid #FFF8EA;
-  padding: 0.5rem;
-  color: #FFF8EA;
-  width: 20%;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 2rem; }
-
-.bannerPrestations img {
-  width: 100%;
-  height: 50rem; }
-
-.prestations {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.prestationsTitle {
-  text-justify: center;
-  text-align: center;
-  font-family: 'Stick No Bills', sans-serif;
-  font-size: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
-
-.prestations div h2 {
-  font-size: 4rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-align: center;
-  margin-top: 2rem; }
-
-.prestations p {
-  text-align: center;
-  font-size: 2rem;
-  padding: 1%; }
-
-.caja {
-  color: #212121;
-  background-color: #C5ADAD;
-  padding: 1%;
-  text-align: center; }
-
-.prestationsButtons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr;
-  justify-content: space-between; }
-
-.prestationsButtons a {
-  display: grid;
-  justify-content: space-around;
-  color: #FFF8EA;
-  background-color: #BE5A5A;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  .prestationsButtons a {
+    display: grid;
+    justify-content: space-around;
+    color: #FFF8EA;
+    background-color: #BE5A5A;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    .prestationsButtons a:hover {
+      border: 1px solid #212121;
+      padding: 0.5rem;
+      color: #FFF8EA;
+      background-color: #212121; }
 
 .bannerEquipe {
   display: grid;
@@ -577,86 +486,82 @@ nav {
   background-image: url("../assets/img/equipe/equipe-cover.jpg");
   background-size: cover;
   height: 50rem; }
-
-.bannerEquipe div {
-  background-image: url("../assets/img/equipe/equipe-cover.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 50rem;
-  padding: 5%;
-  background-position: center;
-  text-align: left;
-  color: #FFF8EA; }
-
-.bannerEquipe h1 {
-  display: flex;
-  align-items: center;
-  font-size: 5rem;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
-  color: #FFF8EA; }
-
-.bannerEquipe a {
-  flex-wrap: nowrap;
-  border: 1px solid #FFF8EA;
-  padding: 0.5rem;
-  color: #FFF8EA;
-  width: 20%;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center; }
-
-.bannerEquipe img {
-  width: 100%;
-  height: 50rem; }
+  .bannerEquipe div {
+    background-image: url("../assets/img/equipe/equipe-cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    padding: 5%;
+    background-position: center;
+    text-align: left;
+    color: #FFF8EA; }
+  .bannerEquipe h1 {
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    color: #FFF8EA; }
+  .bannerEquipe a {
+    flex-wrap: nowrap;
+    border: 1px solid #FFF8EA;
+    padding: 0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center; }
+    .bannerEquipe a:hover {
+      border: 1px solid #BE5A5A;
+      padding: 0.5rem;
+      color: #FFF8EA;
+      background-color: #BE5A5A; }
+  .bannerEquipe img {
+    width: 100%;
+    height: 50rem; }
 
 .nousSommes {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around; }
-
-.nousSommes h2 {
-  font-size: 5rem;
-  text-justify: center;
-  text-align: center;
-  font-family: 'Stick No Bills', sans-serif;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
-.nousSommes h3 {
-  font-size: 4rem;
-  margin-top: 2rem;
-  font-family: 'Stick No Bills', sans-serif;
-  font-weight: bold;
-  color: #BE5A5A;
-  text-align: center; }
-
-.nousSommes img {
-  width: 50%;
-  height: 50rem; }
+  .nousSommes h2 {
+    font-size: 5rem;
+    text-justify: center;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .nousSommes h3 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: bold;
+    color: #BE5A5A;
+    text-align: center; }
+  .nousSommes img {
+    width: 50%;
+    height: 50rem; }
 
 .notreApproche {
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-
-.notreApproche h3 {
-  font-size: 4rem;
-  text-justify: center;
-  text-align: center;
-  font-family: 'Stick No Bills', sans-serif; }
+  .notreApproche h3 {
+    font-size: 4rem;
+    text-justify: center;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif; }
 
 .notreApprocheImg {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-
-.notreApprocheImg img {
-  width: 40%;
-  height: 20rem;
-  margin: 1rem; }
+  .notreApprocheImg img {
+    width: 40%;
+    height: 20rem;
+    margin: 1rem; }
 
 .notreApprocheText {
   display: flex;
@@ -676,32 +581,30 @@ nav {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem; }
-
-.parlezNous h3 {
-  font-size: 4rem;
-  color: #8B1A1A;
-  text-justify: center;
-  text-align: center;
-  font-family: 'Stick No Bills', sans-serif; }
+  .parlezNous h3 {
+    font-size: 4rem;
+    color: #8B1A1A;
+    text-justify: center;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif; }
 
 .parlezNousButton {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-.parlezNousButton a {
-  color: #FFF8EA;
-  background-color: #8B1A1A;
-  width: 30%;
-  height: 10%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.5%;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase; }
+  .parlezNousButton a {
+    color: #FFF8EA;
+    background-color: #8B1A1A;
+    width: 30%;
+    height: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase; }
 
 .bannerClients {
   display: grid;
@@ -711,42 +614,40 @@ nav {
   background-image: url("../assets/img/clients/clients-cover.jpg");
   background-size: cover;
   height: 50rem; }
-
-.bannerClients div {
-  background-image: url("../assets/img/clients/clients-cover.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 50rem;
-  padding: 5%;
-  background-position: center;
-  text-align: left;
-  color: #FFF8EA; }
-
-.bannerClients h1 {
-  display: flex;
-  align-items: center;
-  font-size: 5rem;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
-  color: #FFF8EA; }
-
-.bannerClients a {
-  flex-wrap: nowrap;
-  border: 1px solid #FFF8EA;
-  padding: 0.5rem;
-  color: #FFF8EA;
-  width: 20%;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center; }
-
-.bannerClients a:hover {
-  background-color: #212121; }
-
-.bannerClients img {
-  width: 100%;
-  height: 60rem; }
+  .bannerClients div {
+    background-image: url("../assets/img/clients/clients-cover.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    padding: 5%;
+    background-position: center;
+    text-align: left;
+    color: #FFF8EA; }
+  .bannerClients h1 {
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    color: #FFF8EA; }
+  .bannerClients a {
+    flex-wrap: nowrap;
+    border: 1px solid #FFF8EA;
+    padding: 0.5rem;
+    color: #FFF8EA;
+    width: 20%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center; }
+    .bannerClients a:hover {
+      border: 1px solid #BE5A5A;
+      padding: 0.5rem;
+      color: #FFF8EA;
+      background-color: #BE5A5A; }
+  .bannerClients img {
+    width: 100%;
+    height: 60rem; }
 
 .clientsTitle {
   font-size: 4rem;
@@ -765,95 +666,30 @@ nav {
   align-items: center;
   justify-content: space-around;
   text-align: center; }
+  .clientsCards div img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover; }
 
-.clientsCards div img {
-  width: 100%;
-  height: 90%;
-  object-fit: cover; }
-
-.ShakeCafe {
+.ShakeCafe, .ElAlmacen, .Pepponita, .The22 {
   display: grid;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 2rem; }
-
-.ShakeCafe a {
-  display: grid;
-  color: #FFF8EA;
-  background-color: #BE5A5A;
-  width: 100%;
-  height: auto;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  justify-content: center;
-  align-items: center; }
-
-.ElAlmacen {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2rem; }
-
-.ElAlmacen a {
-  display: grid;
-  color: #FFF8EA;
-  background-color: #BE5A5A;
-  width: 100%;
-  height: auto;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  justify-content: center;
-  align-items: center; }
-
-.Pepponita {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2rem; }
-
-.Pepponita a {
-  display: grid;
-  color: #FFF8EA;
-  background-color: #BE5A5A;
-  width: 100%;
-  height: auto;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  justify-content: center;
-  align-items: center; }
-
-.The22 {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2rem; }
-
-.The22 a {
-  display: grid;
-  color: #FFF8EA;
-  background-color: #BE5A5A;
-  width: 100%;
-  height: auto;
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  justify-content: center;
-  align-items: center; }
+  .ShakeCafe a, .ElAlmacen a, .Pepponita a, .The22 a {
+    display: grid;
+    color: #FFF8EA;
+    background-color: #BE5A5A;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center; }
 
 .formulario {
   display: grid;
@@ -1131,7 +967,7 @@ nav {
   .nousSommes h3 {
     font-size: 3rem;
     margin-top: 1rem; }
-  .nousSommes P {
+  .nousSommes p {
     font-size: 1.5rem; }
   .notreApprocheText {
     font-size: 1rem; }

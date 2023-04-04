@@ -1,27 +1,32 @@
 @media (max-width:320px){
-    .bannerEquipe h1{
-    font-size: 4rem;
-    margin-bottom: 2rem;
+.bannerEquipe{
+    h1{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    a {
+        width: 30%;
+        height: 4rem;
+    }
 }
-.bannerEquipe a {
-    width: 30%;
-    height: 4rem;
-}
-.nousSommes h2{
-    font-size: 4rem;
-}
-.nousSommes img{
-    width: 50%;
-    height: 16rem;
-    margin-bottom: 1rem;
-    margin: 1rem;
-}
-.nousSommes h3{
-    font-size: 3rem;
-    margin-top: 1rem;
-}
-.nousSommes P{
-    font-size: 1.5rem;
+.nousSommes{
+    h2{
+        font-size: 4rem;
+    }
+    img{
+        width: 50%;
+        height: 16rem;
+        margin-bottom: 1rem;
+        margin: 1rem;
+    }
+    h3{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+
 }
 .notreApprocheText{
     font-size: 1rem;

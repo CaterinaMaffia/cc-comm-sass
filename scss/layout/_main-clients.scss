@@ -6,7 +6,6 @@
     background-image: url("../assets/img/clients/clients-cover.jpg");
     background-size: cover;
     height: 50rem;
-  
     div {
       background-image: url("../assets/img/clients/clients-cover.jpg");
       background-size: cover;
@@ -17,7 +16,6 @@
       text-align: left;
       color: #FFF8EA;
     }
-  
     h1 {
       display: flex;
       align-items: center;
@@ -26,7 +24,6 @@
       font-weight: lighter;
       color: #FFF8EA;
     }
-  
     a {
       flex-wrap: nowrap;
       border: 1px solid #FFF8EA;
@@ -37,18 +34,15 @@
       font-family: 'Nunito Sans', sans-serif;
       text-decoration: none;
       text-align: center;
-  
       &:hover {
-        background-color: #212121;
+        @include hover;
       }
     }
-  
     img {
       width: 100%;
       height: 60rem;
     }
   }
-  
   .clientsTitle {
     font-size: 4rem;
     text-justify: center;
@@ -56,7 +50,6 @@
     font-family: 'Stick No Bills', sans-serif;
     margin-top: 4rem;
   }
-  
   .clientsCards {
     width: 100%;
     height: auto;
@@ -67,21 +60,19 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
-  
     div img {
       width: 100%;
       height: 90%;
       object-fit: cover;
     }
   }
-  
   .ShakeCafe, .ElAlmacen, .Pepponita, .The22 {
     display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 2rem;
-  
+
     a {
       display: grid;
       color: #FFF8EA;
