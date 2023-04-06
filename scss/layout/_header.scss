@@ -78,6 +78,10 @@ nav {
 	text-decoration: none;
 	text-align: center;
 	justify-content: center;
+	animation-name: devis;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-delay: 15%;
 	&:hover {
 		border: 1px solid #FFF8EA;
 		background-color: $background-color_2;
@@ -93,4 +97,12 @@ nav {
 	color: $color_1;
 	background-color: transparent;
 	text-decoration: none;
+}
+
+@keyframes devis{
+	0%{width: 25rem;}
+	25%{width: 30rem;}
+	50%{width: 35rem;}
+	75%{width: 30rem;}
+	100%{width: 25rem;}
 }
