@@ -407,8 +407,7 @@ nav {
     font-family: "Nunito Sans", sans-serif;
     font-weight: lighter;
     color: #FFF8EA;
-    margin-bottom: 2rem;
-    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
+    margin-bottom: 2rem; }
   .bannerPrestations a {
     flex-wrap: nowrap;
     border: 1px solid #FFF8EA;
@@ -458,8 +457,7 @@ nav {
   color: #212121;
   background-color: #C5ADAD;
   padding: 1%;
-  text-align: center;
-  margin: none; }
+  text-align: center; }
 
 .prestationsButtons {
   display: grid;
@@ -789,9 +787,15 @@ nav {
   .buttonIndexPrestations a {
     font-size: 1.5rem;
     height: fit-content; }
+  .nosRealisationsIndex h3 {
+    font-size: 4rem; }
+  .nosRealisationsIndex p {
+    font-size: 2rem; }
   .buttonIndexRealisations a {
     font-size: 1.5rem;
     height: fit-content; }
+  .besoinParticulierIndex h3 {
+    font-size: 4rem; }
   .besoinParticulierIndex p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: light;
@@ -919,6 +923,10 @@ nav {
     font-size: 1.2rem;
     grid-column: 2/6;
     height: fit-content; }
+  .nosRealisationsIndex h3 {
+    font-size: 3rem; }
+  .nosRealisationsIndex p {
+    font-size: 2rem; }
   .buttonIndexRealisations {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -929,6 +937,8 @@ nav {
       height: fit-content; }
   .besoinParticulierIndex p {
     font-size: 1.5rem; }
+  .besoinParticulierIndex h3 {
+    font-size: 4rem; }
   .buttonIndexDevis a {
     grid-column: 2/6;
     font-size: 1.2rem;

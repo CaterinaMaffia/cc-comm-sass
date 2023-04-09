@@ -81,15 +81,28 @@ li a{
     font-size:1.5rem;
     height: fit-content;
 }
+.nosRealisationsIndex{
+    h3{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
 .buttonIndexRealisations a{
     font-size:1.5rem;
     height: fit-content;
 }
-.besoinParticulierIndex p{
-    font-family:'Nunito Sans', sans-serif;
-    font-weight: light;
-    text-align: center;
-    font-size: 2rem;
+.besoinParticulierIndex{
+    h3{
+        font-size: 4rem;
+    }
+    p{
+        font-family:'Nunito Sans', sans-serif;
+        font-weight: light;
+        text-align: center;
+        font-size: 2rem;
+    }
 }
 .buttonIndexDevis a{
     font-size:1.5rem;
