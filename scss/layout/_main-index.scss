@@ -4,6 +4,7 @@ $font-family_2: 'Stick No Bills', sans-serif;
 $background-color_1: #212121;
 $background-color_2: #BE5A5A;
 $background-color_3:#8B1A1A;
+$background-color_4:#C5ADAD;
 
 .bannerIndex {
 	display: grid;
@@ -23,10 +24,11 @@ $background-color_3:#8B1A1A;
 	h1 {
 		grid-row: 4 / 7;
 		align-self: center;
-		font-size: 5rem;
-		font-family: $font-family_2;
+		font-size: 7rem;
+		font-family: $font-family_1;
 		font-weight: lighter;
 		color: $color_1;
+		text-shadow: 0.3rem 0.3rem 0.2rem $background-color_4;
 	}
 	a {
 		grid-row: 7 /8;
@@ -52,9 +54,9 @@ $background-color_3:#8B1A1A;
 	height: fit-content;
 	padding: 1% 4% 1% 4%;
 	font-family: $font-family_1;
-	background-color: $background-color_2;
-	border: 3px solid $color_1;
-	color: $color_1;
+	background-color: white;
+	border: 3px solid white;
+	color: $background-color_1;
 	text-align: center;
 }
 .nosPrestationsIndex {
@@ -115,20 +117,20 @@ $background-color_3:#8B1A1A;
 	display: flex;
 	flex-direction: column;
 	margin-top: 2rem;
-	color: $background-color_2;
-	background-color: $background-color_3;
+	background-color: $background-color_4;
 	padding: 2%;
 	text-align: center;
 	h3 {
 		text-justify: center;
 		text-align: center;
 		font-family: $font-family_2;
-		font-size: 4rem;
+		font-size: 6rem;
+		color: $color_1;
 	}
 	p {
 		font-family: $font-family_1;
 		color: $background-color_3;
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 }
 .carousel-inner {
@@ -175,21 +177,23 @@ $background-color_3:#8B1A1A;
 	flex-direction: column;
 	margin-left: 2%;
 	margin-right: 2%;
-	color: $background-color_2;
+	color: $background-color_1;
 	margin-top: 2%;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 3rem;
 	h3 {
 		text-justify: center;
 		text-align: center;
 		font-family: $font-family_2;
-		font-size: 4rem;
+		font-size: 6rem;
+		color:#8B1A1A;
+		text-shadow: 0.3rem 0.3rem 0.2rem $background-color_4;
 	}
 	p {
 		font-family: $font-family_1;
 		font-weight: light;
 		text-align: center;
-		font-size: 2.5rem;
+		font-size: 3rem;
 	}
 }
 .buttonIndexDevis {

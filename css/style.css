@@ -125,10 +125,11 @@ nav {
   .bannerTextIndex h1 {
     grid-row: 4 / 7;
     align-self: center;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: lighter;
-    color: #FFF8EA; }
+    color: #FFF8EA;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
   .bannerTextIndex a {
     grid-row: 7 /8;
     border: 1px solid #FFF8EA;
@@ -154,8 +155,8 @@ nav {
   height: fit-content;
   padding: 1% 4% 1% 4%;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #BE5A5A;
-  border: 3px solid #FFF8EA;
+  background-color: white;
+  border: 3px solid white;
   color: #212121;
   text-align: center; }
 
@@ -213,19 +214,19 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
-  color: #BE5A5A;
-  background-color: #8B1A1A;
+  background-color: #C5ADAD;
   padding: 2%;
   text-align: center; }
   .nosRealisationsIndex h3 {
     text-justify: center;
     text-align: center;
     font-family: "Stick No Bills", sans-serif;
-    font-size: 4rem; }
+    font-size: 6rem;
+    color: #FFF8EA; }
   .nosRealisationsIndex p {
     font-family: "Nunito Sans", sans-serif;
     color: #8B1A1A;
-    font-size: 2rem; }
+    font-size: 3rem; }
 
 .carousel-inner img {
   width: 100%;
@@ -264,20 +265,22 @@ nav {
   flex-direction: column;
   margin-left: 2%;
   margin-right: 2%;
-  color: #BE5A5A;
+  color: #212121;
   margin-top: 2%;
   text-align: center;
-  font-size: 2rem; }
+  font-size: 3rem; }
   .besoinParticulierIndex h3 {
     text-justify: center;
     text-align: center;
     font-family: "Stick No Bills", sans-serif;
-    font-size: 4rem; }
+    font-size: 6rem;
+    color: #8B1A1A;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
   .besoinParticulierIndex p {
     font-family: "Nunito Sans", sans-serif;
     font-weight: light;
     text-align: center;
-    font-size: 2.5rem; }
+    font-size: 3rem; }
 
 .buttonIndexDevis {
   display: grid;
@@ -333,10 +336,11 @@ nav {
     display: flex;
     align-items: center;
     margin-left: none;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: lighter;
-    color: #FFF8EA; }
+    color: #FFF8EA;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
   .bannerRealisations a {
     flex-wrap: nowrap;
     border: 1px solid #FFF8EA;
@@ -399,11 +403,12 @@ nav {
   .bannerPrestations h1 {
     display: flex;
     align-items: center;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: lighter;
     color: #FFF8EA;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
   .bannerPrestations a {
     flex-wrap: nowrap;
     border: 1px solid #FFF8EA;
@@ -453,7 +458,8 @@ nav {
   color: #212121;
   background-color: #C5ADAD;
   padding: 1%;
-  text-align: center; }
+  text-align: center;
+  margin: none; }
 
 .prestationsButtons {
   display: grid;
@@ -498,10 +504,11 @@ nav {
   .bannerEquipe h1 {
     display: flex;
     align-items: center;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: lighter;
-    color: #FFF8EA; }
+    color: #FFF8EA;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
   .bannerEquipe a {
     flex-wrap: nowrap;
     border: 1px solid #FFF8EA;
@@ -549,10 +556,12 @@ nav {
   flex-direction: column;
   justify-content: space-around; }
   .notreApproche h3 {
-    font-size: 4rem;
+    font-size: 6rem;
     text-justify: center;
     text-align: center;
-    font-family: "Stick No Bills", sans-serif; }
+    font-family: "Stick No Bills", sans-serif;
+    color: #8B1A1A;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
 
 .notreApprocheImg {
   display: flex;
@@ -569,7 +578,8 @@ nav {
   font-family: "Nunito Sans", sans-serif;
   font-weight: light;
   font-size: 2rem;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 1%; }
 
 .parlezNous {
   display: flex;
@@ -583,7 +593,7 @@ nav {
   margin-bottom: 3rem; }
   .parlezNous h3 {
     font-size: 4rem;
-    color: #8B1A1A;
+    color: #212121;
     text-justify: center;
     text-align: center;
     font-family: "Stick No Bills", sans-serif; }
@@ -626,10 +636,11 @@ nav {
   .bannerClients h1 {
     display: flex;
     align-items: center;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: "Nunito Sans", sans-serif;
     font-weight: lighter;
-    color: #FFF8EA; }
+    color: #FFF8EA;
+    text-shadow: 0.3rem 0.3rem 0.2rem #C5ADAD; }
   .bannerClients a {
     flex-wrap: nowrap;
     border: 1px solid #FFF8EA;
@@ -650,11 +661,12 @@ nav {
     height: 60rem; }
 
 .clientsTitle {
-  font-size: 4rem;
   text-justify: center;
   text-align: center;
   font-family: "Stick No Bills", sans-serif;
   margin-top: 4rem; }
+  .clientsTitle h2 {
+    font-size: 5rem; }
 
 .clientsCards {
   width: 100%;
@@ -705,6 +717,7 @@ nav {
     align-items: center;
     font-weight: bolder; }
 
+/*Agregarle estilos al buttom*/
 @media (max-width: 768px) {
   p {
     font-family: 'Nunito Sans', sans-serif;

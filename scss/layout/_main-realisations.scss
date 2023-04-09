@@ -1,11 +1,3 @@
-$color_1: #FFF8EA;
-$font-family_1: 'Nunito Sans', sans-serif;
-$font-family_2: 'Stick No Bills', sans-serif;
-$background-color_1: #212121;
-$background-color_2: #BE5A5A;
-$background-color_3:#8B1A1A;
-$background-color_4:#C5ADAD;
-
 .bannerRealisations {
     display: grid;
     grid-template-columns: 1fr;
@@ -30,10 +22,11 @@ $background-color_4:#C5ADAD;
       display: flex;
       align-items: center;
       margin-left: none;
-      font-size: 5rem;
+      font-size: 7rem;
       font-family: $font-family_1;
       font-weight: lighter;
       color: $color_1;
+      text-shadow: 0.3rem 0.3rem 0.2rem $background-color_4;
     }
   
     a {
